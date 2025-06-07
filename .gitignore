@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build React (frontend)
+frontend/build/
+frontend/dist/
+
+# Build backend (jeśli masz)
+backend/dist/
+backend/build/
+
+# Systemowe
+.DS_Store
+Thumbs.db
+
+# Logi
+*.log
+
+# Env
+.env
+.env.*
+
+# Docker
+*.local
+docker-compose.override.yml
+
+# VSCode
+.vscode/
+
+# MacOS
+Icon?
