@@ -7,5 +7,12 @@
   "email": "Email",
   "address": "Adres",
   "footer_company": "DG-System Damian Golba",
-  "footer_desc": "Profesjonalna automatyzacja produkcji"
+  "footer_desc": "Profesjonalna automatyzacja produkcji",
+
+  "service_install_title": "Montaż Robotów",
+  "service_install_desc": "Profesjonalna instalacja robotów przemysłowych różnych producentów",
+  "service_maintenance_title": "Serwis",
+  "service_maintenance_desc": "Kompleksowa obsługa serwisowa i konserwacja instalacji",
+  "service_programming_title": "Programowanie",
+  "service_programming_desc": "Programowanie robotów i integracja z istniejącymi systemami"
 }
