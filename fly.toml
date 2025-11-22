@@ -1,10 +1,13 @@
-# fly.toml app configuration file generated for dg-tech on 2025-06-07T08:14:22+02:00
+# fly.toml app configuration file generated for dg-system on 2025-06-07T20:19:56+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'dg-tech'
+app = 'dg-system'
 primary_region = 'fra'
+
+[build]
+  dockerfile = 'Dockerfile'
 
 [http_service]
   internal_port = 8080
@@ -16,5 +19,3 @@ primary_region = 'fra'
 
 [[vm]]
   size = 'shared-cpu-1x'
-[build]
-  dockerfile = "Dockerfile"
